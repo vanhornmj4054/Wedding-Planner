@@ -1,0 +1,16 @@
+@model Wedding
+<br>
+<h1 class="Title">@ViewBag.Wedding.WedderOne and @ViewBag.Wedding.WedderTwo's Wedding</h1>
+<a href="/Dashboard">Dashboard</a>
+<a href="/logout" class="Logout">Log Out</a>
+<br>
+<br>
+<h4>Date: @ViewBag.Wedding.Date</h4><br>
+<div class="Guests">
+    <h4>Guests:</h4><br>
+        @foreach(var guest in ViewBag.AddedGuests)
+        {
+            <p>@guest.FirstName @guest.LastName</p>
+        }
+</div>
+

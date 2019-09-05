@@ -1,0 +1,51 @@
+﻿body{
+  background-image: url("/img/Wedding.jpg")
+
+}
+
+table, th, td {
+  border: 1px solid black;
+  background-image: linear-gradient(white, rgba(255, 255, 255, 0), white);
+  /* opacity: 0.7; */
+}
+
+.Title {
+  color: white;
+  text-shadow: 0 0 3px rgb(2, 2, 2);
+	font-size: 28pt;
+}
+
+.Logout {
+  margin-left: 325px;
+}
+
+.WedderOne {
+  margin-left: 200px;
+}
+
+.WedderTwo {
+  margin-left: 201px;
+}
+
+.Date {
+  margin-left: 171px;
+}
+
+.Address {
+  margin-left: 163px;
+}
+
+.Create {
+  background-image: linear-gradient(rgb(215, 167, 255), rgb(255, 224, 255));
+  color: white;
+  border-radius: 10px;
+}
+
+.Guests {
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 1px;
+  background-image: linear-gradient(white, rgba(255, 255, 255, 0), white);
+  width: 200px;
+  border-radius: 10px;
+}
